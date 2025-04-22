@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Flavors&display=swap');
+body {
+    background: url('https://i.postimg.cc/Jhp9PJnS/fantasy-forest-moring-by-riverside-600nw-1062567329-1.png')center center fixed;
+    background-size: 65%;
+    font-family: 'Flavors', cursive;
+    color: #A62447;
+}
+.container.main {
+    background: rgba(204, 255, 255, 0.3);
+    border-spacing: 4.5px groove;
+    box-shadow: none;
+    border-radius: 0;
+}
+.col-md-9 {
+    background: rgba(166,171,249,0.3);
+    border-right: none;
+}
+.topbar {
+    background: rgba(243,194,133,0.57);
+    border: 4.5px inset;
+    border-color: #66CC66;
+    border-radius: 6px;
+    border-top: 4.5px inset;
+    border-top-color: #ff00ef;
+    border-radius: 6px;
+    color: #581845;
+    font-size: 22px;
+}
+.navbar {
+    background: rgba(86,115,237,0.3);
+    border-bottom: 4.5px outset;
+    border-bottom-color: rgba(129,253,2);
+    border-top: 4.5px outset;
+    color: #000000;
+    border-radius: 6px;
+    border-top-color: rgb(143,85,229);
+    border-right: 4.5px inset;
+    border-right-color: #88a974;
+}
+.navbar {
+    background: #9b2a97;
+    background: linear-gradient(90deg, rgba(155, 42, 151, 1) 6%, rgba(130, 100, 144, 0.9) 14%, rgba(120, 122, 141, 0.4) 20%, rgba(113, 139, 139, 0.4) 24%, rgba(99, 172, 135, 0.4) 31%, rgba(87, 199, 132, 0.4) 37%, rgba(131, 195, 156, 0.4) 45%, rgba(171, 191, 177, 0.4) 52%, rgba(206, 188, 196, 0.4) 59%, rgba(236, 185, 212, 0.4) 65%, rgba(234, 203, 168, 1) 72%, rgba(232, 217, 133, 1) 77%, rgba(230, 228, 105, 1) 84%, rgba(229, 237, 83, 1) 90%, rgba(235, 242, 107, 1) 97%) !important;
+}
+.navbar li a:hover {
+    background: rgba(179,45,45,0.5) !important;
+    border-bottom: none;
+    color: #d5b1b1 !important;
+    border-radius: 0;
+}
+.breadcrumb {
+    background: rgba(204, 255, 255 ,0.5) !important;
+    border: 2.5px outset;
+    border-color: rgb(189,44,207);
+    border-radius: 9px;
+}
+.breadcrumb.active {
+    color: rgb(230,23,205);
+}
+input.floatright,
+input.floatright:hover {
+    background: rgba(255,186,15,0.5) !important;
+    border: 2.5px inset !important;
+    border-color: rgba(0,179,255,0.8) !important;
+    border-radius: 3px inset;
+    color: #f028cf !important;
+    font-size: 15px !important;
+}
+button.button,
+button.button:hover {
+    background: rgba(2,237,255,0.5);
+    border: none !important;
+    border-radius: 0;
+    text-shadow: none !important;
+    color: #08dae1 !important;
+}
+.alert,
+.alert-warning,
+.alert-danger {
+    background: rgba(247,3,113,0.37) !important;
+    color: rgba(192,246,82,0.96);
+    font-size: 20px;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, rgba(241,79,57,0.75), rgba(114,21,196,0.65)) 1;
+}
+ 
+h1 {
+    
+    background-image: url('https://i.postimg.cc/sg0QcYXG/Chat-GPT-Image-Apr-17-2025-01-13-10-AM-removebg-preview-removebg-preview-optimized.png');
+    background-position: center;
+    background-size: contain;
+    padding-right: 100%;
+    height: 200px;
+    width: 400px;
+    background-repeat: no-repeat;
+    text-indent: -9999px
+        
+} 
+.container.main::after {
+content: "1";
+background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemU5NmEyd3Qzd21wMXp6b2xtZTcxNmZ4ZXg4MzI1cDB4emp3aXI4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LAaop3d8mpx0KjltzO/giphy.gif');
+    background-position: left;
+background-size: cover;
+position: absolute;
+display: block;
+height:400px;
+width:300px;
+right: 1099px ;
+bottom: -19.9rem;
+z-index: 100;
+pointer-events:none;
+
+}
+
+.container.main::before {
+content: "2";
+background-image: url('https://i.postimg.cc/8C7vC30s/oie-22202314-Xz-YYNLO4.gif');
+    background-position: right;
+
+background-size: cover;
+position: absolute;
+display: block;
+height:400px;
+width:300px;
+right: 0239px ;
+bottom: -19.9rem;
+z-index: 100;
+pointer-events:none;
+}
+
+h2 {
+	color: #e48e0f;
+	font-size: 24px;
+	text-align: center
+}
+h3 {
+	color: #24d8e7 !important;
+	font-size: 24px !important
+    
+}
+.sidebar h3 {
+	color: #ff00ae !important;
+        font-size: 26px !important;
+        font-family: 'Flavors'
+}
+.panel
+{background: linear-gradient(90deg, #e42efd 0%, #22C1C3 100%)!important
+    
+    
+}
+.progress {
+	background: rgba(255,255,255,0.5);
+	color: #00e3ff !important;
+	border-radius: 0px !important
+}
+
+.progress-bar {
+	background: linear-gradient(90deg,rgba(255, 158, 31, 1) 0%, rgba(252, 255, 64, 1) 51%, rgba(83, 237, 88, 1) 100%);
+}
+.progress div {
+	color: #7d00be !important
+
+}
+
+.s-chat-message:nth-child(even) {
+	background: rg#f71111, 1, 0.5) !important;
+        color: #b509e0 !important;
+	border: none !important;
+}
+
+
+.s-chat-messargba(228,206,10,0.5) {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+
+.s-chat-message__pinned {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+
+.s-chat-message_timestamp  {
+	color: #000000 !important;
+}
+
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+
+button#label_currentChannel {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #000000 !important;
+	border: none !important
+}
+
+.table {
+background-image: url('https://i.postimg.cc/FFqyrQmJ/vecteezy-sunset-tropical-jungle-forest-lake-dusk-landscape-16265385-1-696x197.png') !important;
+    background-size: contain;
+    background-repeat: none;
+    opacity: 0.9;
+}
+   .top,
+.bottom,
+th {
+	background: rgba(93,11,122,0.5) !important;
+    font-size: 19px;
+	color: #f5d745 !important;
+   border-radius: 4px
+     }
+
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+.inner-table .left {
+	background: rgba(155, 226, 242, 0.6) !important;
+    font-size: 17px;
+        color: #750252;
+	border-radius: 8px
+}
+.inner-table .right {
+	background: rgba(115,245,154,0.53);
+	border-radius: 7px !important
+}
+
+td.right {
+	border-radius: 7px !important
+}
+.cave-grid,
+.mound-grid {
+	background: rgba(249,2,104,0.56);
+	border: inset 5px !important;
+    border-image: linear-gradient(90deg, #e42efd 0%, #22C1C3 100%) 1!important;
+	border-radius: 10px !important
+}
+.feature {
+	background: rgba(255,2,253,0.5) !important;
+	color: #fbbb4b !important;
+	border: 1px solid #0703fd !important;
+	border-radius: 0px !important
+}
+.feature,
+div.left {
+	background: rgba(234,72,126,0.57);
+	border: inset;
+     border-image: linear-gradient(to bottom, rgba(241,79,57,0.75), rgba(114,21,196,0.65)) 1;
+	border-radius: 7px !important
+    
+}
+.table .left {
+	background: rgba(245,11,215,0.74);
+        border-radius: 7px
+}
+input,
+select,
+textarea {
+	background: rgba(162,95,238,0.4) !important;
+	border: outset !important;
+    border-image: linear-gradient(to bottom, rgba(255, 158, 31, 1), rgba(252, 255, 64, 1),rgba(237, 83, 129, 1)) 1 !important;
+	border-radius: 0px !important;
+	color: #08aa9d !important;
+    font-size: 19px;
+	box-shadow: none !important;
+	text-shadow: none; !important
+}
+.item-header {
+	background: rgba(129,206,247,0.5) !important;
+	color: #840530  !important;
+    font-size: 15px;
+	border-radius: 7px !important;
+}
+
+
+.item {
+	background: rgba(80,37,158,0.5) !important;
+	border: none !important;
+	border-radius: 7px !important
+}
+div.slider.round /* Background */ {
+	background: #f701cf !important
+}
+
+
+div.slider.round::before /* Circle Part */ {
+	background: #ea9048 !important
+}
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #9c0a6f !important;
+        text-shadow: none !important
+}
+
+a:link,
+a:visited {
+    font-size: 17px;
+	color: #1cdfe6 !important
+    
+}
+a:hover {
+	color: #eaa246 !important
+}
+
+.boxcontainer {
+	background: #10ee1f;
+	height: 300px
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+.smallbox {
+	float: left;
+	background: rgba(30,12,234,0.5);
+	color: #d607f9;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 28.4%;
+	overflow: auto
+}
+
+
+.mediumbox {
+	float: left;
+	background: rgba(19,9,234,0.5);
+	color: #d407ec;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 43.8%;
+	overflow: auto
+}
+
+
+.largebox {
+	float: left;
+	background: rgba(1,0,215,0.5);
+	color: #e509f5;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto
+}
+.smallhoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 28.4%;
+	overflow: auto;
+        transition: 3s
+}
+
+
+.smallhoverbox:hover {
+	height: 150px;
+	width: 28.4%;
+}
+
+
+.mediumhoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 50px;
+	width: 43.8%;
+	overflow: auto;
+        transition: 3s
+}
+
+
+.mediumhoverbox:hover {
+	height: 150px;
+	width: 43.8%;
+}
+
+
+.largehoverbox {
+	float: left;
+	background: rgba(1, 1, 1, 0.5);
+	color: #000000;
+	padding: 10px;
+	border: none;
+	border-radius: 0px;
+	margin: 10px;
+	height: 150px;
+	width: 90%;
+	overflow: auto;
+        transition: 3s
+}
+
+
+.largehoverbox:hover {
+	height: 150px;
+	width: 90%;
+}
+::-webkit-scrollbar {
+	width: 10px
+}
+::-webkit-scrollbar-track {
+	background: rgba(243,94,225,0.88)
+}
+::-webkit-scrollbar-thumb {
+	background: rgba(128,237,245,0.69);
+	border-radius: 10px
+}
+div#lion_image {
+	opacity: 1
+}
+
+
+table#player img { 
+    
+	opacity: 1
+}
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden
+}
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://i.postimg.cc/rpsYfnRk/04-17-2025-X-Design-1-1-optimized.png');
+    
+}
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://i.postimg.cc/prL9jF1q/butterfly-moons-deer-horns-watercolor-600nw-2368435747-removebg-preview-3-optimized.png') !important;
+     border-image: linear-gradient(to bottom, rgba(255, 158, 31, 1), rgba(252, 255, 64, 1),rgb(146,237,83)) 1 !important;
+    Border: outset 4px
+}
+
+
+
+
+
+
+.mound-grid img /* Mound(s) */ {
+	background: url("https://i.postimg.cc/prL9jF1q/butterfly-moons-deer-horns-watercolor-600nw-2368435747-removebg-preview-3-optimized.png");
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px
+}
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
